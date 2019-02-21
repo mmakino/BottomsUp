@@ -13,10 +13,10 @@ This website will enable users to search for drink recipes by name and/or ingred
 ## Deployment
 *  https://mmakino.github.io/BottomsUp
 
-   ![BottomsUp!](assets/images/demo_home.png)
+   [![BottomsUp!](assets/images/demo_home.png)](https://mmakino.github.io/BottomsUp)
 
 ## Repository
-* This repository has been forked from where we developed the app originally [Carrie's GitHub account](https://github.com/chengyisong/bottomsup). [2/20/2019]
+* This repository has been forked from where we developed the app originally together in [Carrie's GitHub account](https://github.com/chengyisong/bottomsup). [2/20/2019]
 
 ### APIs to be used
 API | Description | Auth | HTTPS | CORS
