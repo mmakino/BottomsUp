@@ -11,7 +11,9 @@
 This website will enable users to search for drink recipes by name and/or ingredient. Search results will show recipes as well as current news/posts/forum posts containing the search term.
 
 ## Deployment
-*  https://github.com/mmakino/BottomsUp 
+*  https://mmakino.github.io/BottomsUp
+
+   ![BottomsUp!](assets/images/demo_home.png)
 
 ## Repository
 * This repository has been forked from where we developed the app originally [Carrie's GitHub account](https://github.com/chengyisong/bottomsup). [2/20/2019]
