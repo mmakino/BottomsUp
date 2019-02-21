@@ -409,7 +409,7 @@ class NewsAPI extends APISearch {
     const params = {
       'sortBy': "relevancy", // "popularity", 
       'sources': newsSources.join(","),
-      'apiKey': '432e28734a904d0abe30f89e021f1759',
+      'apiKey': 'unused/disabled',
     }
 
     return params;
@@ -532,7 +532,7 @@ class NYTimes extends APISearch {
             `"Dining & Wine" "Dining and Wine" "Food" "Style")`,
       'page': pageOffset,
       'sort': "newest", 
-      'api-key': '5260dec6c5a34dab92a984130fa8b6d6',
+      'api-key': "5rjo0ctSdf7SJWSGEDnxppADcU5o35Wt",
     };
 
     return params;
@@ -647,9 +647,9 @@ class GCSE extends APISearch {
       // safe search option: "active" OR "off"
       'safe': 'active',
       // custom search engine identifier
-      'cx': decodeURIComponent('013726863933950087168%3A0bb4-rj_v_0'),
+      'cx': decodeURIComponent("013726863933950087168%3A0bb4-rj_v_0"),
       // api key
-      'key': 'AIzaSyDL4ZpojkavjkSy-vXsQnUocH2eE1i5f1k',
+      'key': "AIzaSyDL4ZpojkavjkSy-vXsQnUocH2eE1i5f1k"
     }
 
     return params;
@@ -657,6 +657,7 @@ class GCSE extends APISearch {
 
   //
   // Search articles (Google search)
+  
   //
   searchArticles(searchTerm, clear = true) {
     if (!searchTerm || /^(\W|_)*$/.test(searchTerm) || searchTerm.length === 0) {
@@ -755,9 +756,9 @@ class YTSL extends APISearch {
       // 26 = Howto & Style
       'videoCategoryId': '26',
       // custom search engine identifier
-      'cx': decodeURIComponent('013726863933950087168%3A0bb4-rj_v_0'),
+      'cx': decodeURIComponent("013726863933950087168%3A0bb4-rj_v_0"),
       // api key
-      'key': 'AIzaSyDL4ZpojkavjkSy-vXsQnUocH2eE1i5f1k',
+      'key': "AIzaSyDL4ZpojkavjkSy-vXsQnUocH2eE1i5f1k"
     }
 
     return params;

@@ -1,4 +1,4 @@
-# group5project
+# Group-5 Project
 
 ## Project Title: Bottoms Up
 * Team Members:
@@ -9,6 +9,12 @@
 
 ## Project Description:
 This website will enable users to search for drink recipes by name and/or ingredient. Search results will show recipes as well as current news/posts/forum posts containing the search term.
+
+## Deployment
+*  https://github.com/mmakino/BottomsUp 
+
+## Repository
+* This repository has been forked from where we developed the app originally [Carrie's GitHub account](https://github.com/chengyisong/bottomsup). [2/20/2019]
 
 ### APIs to be used
 API | Description | Auth | HTTPS | CORS
@@ -37,7 +43,10 @@ API Reference: https://github.com/toddmotto/public-apis
 * Everyone:
   * Learn github master/branch/pull request/merge/etc.
 * Moto:
-  * Search page - API research (Currents API)
+  * Search page - API research 
+    * NYTimes API (text-to-speech enabled)
+    * Google Custom Search
+    * YouTube
 * Wilder
   * Firebase
   * Submit your own recipe page
@@ -47,4 +56,3 @@ API Reference: https://github.com/toddmotto/public-apis
 * Carrie
   * Firebase
   * Users’ submitted drinks page
-

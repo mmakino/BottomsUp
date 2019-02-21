@@ -1,6 +1,8 @@
 // Bottoms Up -- Wilder Molyneux -- firebase.js -- 11/29/18
 
 // Initialize Firebase on chengyison account for both additions and display
+
+
 $(document).ready(function() {
 
     var config = {
